@@ -21,14 +21,21 @@
       <div class="container">
       	<h1>Cheep Cheep!</h1>
 
-        <p>Welcome to Sophie Lee's assignment 1 for Cogs 121! :)
+        <h3>Facebook</h3>
 
-          <p>To start, please <a href="/auth/facebook">log in with Facebook</a> or with <a href="/auth/twitter">Twitter</a>
+        <p><a href="/auth/facebook">Log in with Facebook</a> | <a href="/auth/twitter">Log in with Twitter</a>
 
-    <p>{{#each followerlist.twitdata.users}}
-      {{name}} (followers: {{followers_count}})
-      <p>
-      {{/each}}
+
+<p><b>Welcome {{fbdata.name}}! <a href="{{fbdata.link}}">Go to your Facebook profile</a></b>
+
+  <p>Your favorite athletes are {{#each fbdata.favorite_athletes}}
+    {{name}}
+    {{/each}}
+
+    <p>Your religion is {{fbdata.religion}}
+
+    <p>
+
 
     </div>
     <script src="https://code.jquery.com/jquery.js"></script>

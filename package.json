@@ -13,6 +13,8 @@
     "passport": "*",
     "passport-facebook": "*",
     "passport-twitter": "*",
+    "fbgraph": "*",
+    "twit": "*",
     "dotenv": "*"
   },
   "engines": {
