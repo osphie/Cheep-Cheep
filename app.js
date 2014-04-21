@@ -14,7 +14,7 @@ var conf = {
 	client_id: process.env.facebook_client_id,
 	client_secret: process.env.facebook_client_secret,
 	scope: 'email',
-	redirect_uri: 'http://localhost:3000/auth/facebook'
+	redirect_uri: 'http://stormy-temple-7007.herokuapp.com/auth/facebook'
 };
 
 //twit. whenever I make a new var something = require, that means I have to add it into my package.json as well
